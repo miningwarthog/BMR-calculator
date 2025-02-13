@@ -1,5 +1,11 @@
 import streamlit as st
 
+# Ensure the required package is available
+try:
+    import micropip
+except ModuleNotFoundError:
+    st.error("Module 'micropip' not found. Please check your Streamlit environment.")
+
 def calculate_bmi(weight, height):
     return weight / (height / 100) ** 2
 
