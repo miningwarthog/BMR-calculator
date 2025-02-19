@@ -1,5 +1,6 @@
 # What is your BMI status?
 
+
 # Introduction
 
 This research aims to find out the factors that affect BMI (Body Mass Index) and discuss possible solutions to control BMI within a healthy range. BMI is a numerical value derived from a person's weight and height. It is calculated using the formula:
@@ -29,6 +30,7 @@ The visualisations above indicate that there are higher proportion of overweight
 ![bmi_male](https://github.com/user-attachments/assets/b2f24247-be9a-48fd-bbcf-953fc50f4137)
 
 And these three visualisations from Power BI indicate that both Body Temperature Duration Time have positive relationships with Calories. Which means that higher intensity and longer duration of each exercise have more significant effect in burning calories. Also, this effect is more significant for female than male for that the curves of female are steeper than male's. 
+
 
 # BMI Calculator
 
@@ -65,3 +67,17 @@ Here is the link to the calculator and an example of its output.
 ![image](https://github.com/user-attachments/assets/14275063-9a0d-47dc-b129-845a076e6b96)
 
 https://what-is-your-bmi-status-ir9ahnkmu2svzr5afh7sar.streamlit.app/
+
+
+# Conclusion
+
+Based on this research, these conclusions can be drawn:
+* Male is more likely to be overweight that female.
+* As age increases, BMI is likely to increase as well.
+* Intensive and long-duration exercises have positive influences on burning calories.
+* These positive effects are more significant for female than male.
+
+Certainly, there are several drawbacks in this research:
+* The dataset is very likely to have selection bias because it is taken from a sport app, where the users are the people mostly with work-out habits. There is no access to the data of people who do not do sports. Therefore we can not conclude a more general conclusion and it is remained unknown to the factors of obesity or underweight in some extreme cases.
+* The sample size is limited, there may be other confoundings can affect BMI.
+* No formal analysis has been conducted so we can not conclude more precisely numerical or logical relationships between BMI and other factors.   
